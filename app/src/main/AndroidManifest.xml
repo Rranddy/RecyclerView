@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.task1.myapplication">
 
     <application
@@ -15,16 +16,17 @@
             android:label="Developer">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         //change the label of the title of the activity
-            <activity
-                android:name="DevDetail"
-                android:label="Developer 0"/>
+        <activity
+            android:name="DevDetail"
+            android:label="Developer 0">
+        </activity>
 
     </application>
+
 
 </manifest>
